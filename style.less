@@ -77,6 +77,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 
 
+@import "https://use.typekit.net/kjs2vwy.css";
+
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -314,10 +316,8 @@ textarea {
 
 #feature-slider-section .entry-title,
 .header-media .entry-title {
-	font-size: 20px;
-	font-size: 1.25rem;
-	line-height: 1.211538461538462;
-	letter-spacing: 0.45em;
+	font-size: 5rem;
+	line-height: 5rem;
 }
 
 .entry-title,
@@ -387,7 +387,7 @@ textarea,
 .widget .widget-title,
 .author-description .author-title,
 .events-content-wrapper .entry-title {
-	font-family: 'Lato', sans-serif;
+	font-family: 'hypatia-sans-pro', serif;
 }
 
 h1,
@@ -403,7 +403,7 @@ h6,
 .site-description,
 .comment-meta .author-name,
 #events-schedule-section .posted-on {
-	font-family: 'Playfair Display', serif;
+	font-family: 'lush', cursive;
 }
 
 h1,
@@ -1953,9 +1953,8 @@ blockquote:after,
 .site-title,
 #feature-slider-section .entry-title,
 .header-media .entry-title {
-	font-family: 'Old Standard TT', serif;
-	font-weight: 700;
-	text-transform: uppercase;
+	font-family: 'lush', cursive;
+	font-weight: 400;
 }
 
 .site-description {
@@ -3222,7 +3221,7 @@ p > video {
 	100% { opacity: 1;
 		-webkit-transform: translateY(10px);
 		-moz-transform: translateY(10px);
-		-0-transform: translateY(10px);
+		//-0-transform: translateY(10px);
 		transform: translateY(10px);
 	}
 }
@@ -4255,7 +4254,7 @@ body .flashy-overlay .flashy-close {
 	font-size: 100px;
 	font-size: 6.25rem;
 	font-weight: 700;
-	font-family: 'Playfair Display', serif;
+	font-family: 'lush', cursive;
 	line-height: 1;
 	position: absolute;
 	top: 0;
@@ -4359,6 +4358,8 @@ body .flashy-overlay .flashy-close {
 	height: 100%;
 }
 
+
+
 .view-icon {
 	position: absolute;
 	top: 50%;
@@ -4389,13 +4390,13 @@ body .flashy-overlay .flashy-close {
  * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
  */
 
-@-ms-viewport {
-	width: device-width;
-}
-
-@viewport {
-	width: device-width;
-}
+//@-ms-viewport {
+//	width: device-width;
+//}
+// TODO revisit.
+//@viewport {
+//	width: device-width;
+//}
 
 
 /**
@@ -4907,7 +4908,7 @@ body .flashy-overlay .flashy-close {
 
 	#feature-slider-section .entry-container,
 	.custom-header-content {
-		padding: 100px 30px;
+		padding: 350px 30px 0
 	}
 
 	#testimonial-content-section.layout-two .section-content-wrapper {
@@ -5707,7 +5708,7 @@ body .flashy-overlay .flashy-close {
 
 	.admin-bar #feature-slider-section .hentry,
 	.admin-bar .header-media .custom-header-media {
-	 	height: calc(100vh - 32px);
+	 	height: calc(~"100vh - 32px");
 	}
 
 	#feature-slider-section .hentry,
@@ -5804,14 +5805,8 @@ body .flashy-overlay .flashy-close {
 	.custom-header-content {
 		left: 50%;
 		position: absolute;
-		top: 50%;
-		transform: translate(-50%, -50%);
-	}
-
-	#feature-slider-section .entry-title,
-	.header-media .entry-title {
-		font-size: 36px;
-		font-size: 2.25rem;
+		top: 60%;
+		transform: translate(-50%, -20%);
 	}
 
 	#venue-section .has-post-thumbnail .entry-container {
@@ -6109,10 +6104,6 @@ body .flashy-overlay .flashy-close {
 	    padding: 63px 30px;
 	}
 
-	.custom-header-content {
-		padding: 325px 30px;
-	}
-
 	.site-content {
 		padding: 91px 0;
 	}
@@ -6228,12 +6219,6 @@ body .flashy-overlay .flashy-close {
 	#footer-instagram .widget-title {
 		font-size: 60px;
 		font-size: 3.75rem;
-	}
-
-	#feature-slider-section .entry-title,
-	.header-media .entry-title {
-		font-size: 52px;
-		font-size: 3.25rem;
 	}
 
 	.comments-title,

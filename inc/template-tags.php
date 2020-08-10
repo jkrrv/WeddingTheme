@@ -605,7 +605,7 @@ function catch_wedding_footer_content() {
 		get_the_privacy_policy_link(),
 	);
 
-	$footer_content_main = str_replace( $search, $replace, sprintf( _x( 'Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s ', '1: Year, 2: Site Title with home URL, 3: Privacy Policy Link', 'catch-wedding' ), '[the-year]', '[site-link]', '[privacy-policy-link]' .'&nbsp;'. $theme_data->get( 'Name' ) . '&nbsp;' . esc_html__( 'by', 'catch-wedding' ) . '&nbsp;<a target="_blank" href="' . $theme_data->get( 'AuthorURI' ) . '">' . esc_html( $theme_data->get( 'Author' ) ) . '</a>' ) );
+	$footer_content_main = str_replace( $search, $replace, sprintf( _x( 'Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s ', '1: Year, 2: Site Title with home URL, 3: Privacy Policy Link', 'catch-wedding' ), '[the-year]', '[site-link]', '[privacy-policy-link]' .'&nbsp;'. "The Kurtz Wedding Theme is on <a href=\"https://github.com/jkrrv/WeddingTheme\">Github</a>." ) );
 
 	if ( ! $footer_content_main ) {
 		// Bail early if footer content is empty
